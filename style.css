@@ -1,0 +1,35 @@
+body {
+	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/back1.jpg");
+	background-size: cover;
+}
+.logo {
+	width: 600px;
+	height: 291px;
+	background-size: cover;
+	background-image: url("img/logo.png");
+}
+.counter {
+	width: 800px;
+	border-radius: 50px;
+}
+.forum {
+	width: 200px;
+	height: 200px;
+	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/forum.png");
+	background-size: cover;
+	cursor: pointer;
+}
+.vote {
+	width: 200px;
+	height: 200px;
+	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/vote.png");
+	background-size: cover;
+	cursor: pointer;
+}
+.guide {
+	width: 200px;
+	height: 200px;
+	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/guide.png");
+	background-size: cover;
+	cursor: pointer;
+}
