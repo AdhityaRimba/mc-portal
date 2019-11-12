@@ -1,5 +1,5 @@
 body {
-	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/back1.jpg");
+	background-image: url("img/back1.jpg");
 	background-size: cover;
 }
 .logo {
@@ -36,42 +36,14 @@ body {
 	width: 800px;
 	border-radius: 50px;
 }
-.forum {
+.sel-anim {
 	width: 200px;
 	height: 200px;
-	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/forum.png");
-	background-size: cover;
 	cursor: pointer;
 	-webkit-transition-duration: 1s;
 	        transition-duration: 1s;
 }
-.forum:hover {
-	-webkit-transform: scale(1.1);
-	        transform: scale(1.1);
-}
-.vote {
-	width: 200px;
-	height: 200px;
-	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/vote.png");
-	background-size: cover;
-	cursor: pointer;
-	-webkit-transition-duration: 1s;
-	        transition-duration: 1s;
-}
-.vote:hover {
-	-webkit-transform: scale(1.1);
-	        transform: scale(1.1);
-}
-.guide {
-	width: 200px;
-	height: 200px;
-	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/guide.png");
-	background-size: cover;
-	cursor: pointer;
-	-webkit-transition-duration: 1s;
-	        transition-duration: 1s;
-}
-.guide:hover {
+.sel-anim:hover {
 	-webkit-transform: scale(1.1);
 	        transform: scale(1.1);
 }
