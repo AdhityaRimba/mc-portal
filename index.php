@@ -18,7 +18,7 @@ require "function.php";
 	</div>
 	<div class="row d-flex justify-content-center">
 		<div class="col-md-auto">
-			<div class="counter text-center shadow bg-<?= $color; ?> p-2 font-weight-bold text-uppercase mt-3"><?= $ip; ?> |  <?php 
+			<div class="counter text-center shadow border text-white p-2 font-weight-bold text-uppercase mt-3"><?= $ip; ?> |  <?php 
 			if( $online == true ) {
 			 ?>Online <?= $player; ?>
 			 <?php 
