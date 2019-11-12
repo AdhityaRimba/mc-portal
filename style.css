@@ -7,15 +7,29 @@ body {
 	height: 291px;
 	background-size: cover;
 	background-image: url("img/logo.png");
-	animation: zinzout 4s infinite;
-	animation-direction: alternate;
+	-webkit-animation: zinzout 4s infinite;
+	        animation: zinzout 4s infinite;
+	-webkit-animation-direction: alternate;
+	        animation-direction: alternate;
 }
-@keyframe zinzout{
+@-webkit-keyframes zinzout{
 	from{
-		transform: scale(1);
+		-webkit-transform: scale(1);
+		        transform: scale(1);
 	}
 	to{
-		transform: scale(.9);
+		-webkit-transform: scale(.9);
+		        transform: scale(.9);
+	}
+}
+@keyframes zinzout{
+	from{
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	to{
+		-webkit-transform: scale(.9);
+		        transform: scale(.9);
 	}
 }
 .counter {
@@ -28,10 +42,12 @@ body {
 	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/forum.png");
 	background-size: cover;
 	cursor: pointer;
-	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	        transition-duration: 1s;
 }
 .forum:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 }
 .vote {
 	width: 200px;
@@ -39,10 +55,12 @@ body {
 	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/vote.png");
 	background-size: cover;
 	cursor: pointer;
-	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	        transition-duration: 1s;
 }
 .vote:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 }
 .guide {
 	width: 200px;
@@ -50,8 +68,10 @@ body {
 	background-image: url("https://adhitya-storege.s3-ap-southeast-1.amazonaws.com/img/guide.png");
 	background-size: cover;
 	cursor: pointer;
-	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	        transition-duration: 1s;
 }
 .guide:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 }
