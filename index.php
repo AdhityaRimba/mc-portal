@@ -32,13 +32,13 @@ require "function.php";
 	<br><br>
 	<div class="row d-flex justify-content-center">
 		<div class="col-md-3">
-			<a href="<?= $forum; ?>"><div class="forum"></div></a>
+			<a href="<?= $forum; ?>"><img class="sel-anim" src="<?= $img_forum; ?>"></a>
 		</div>
 		<div class="col-md-3">
-			<a href="<?= $vote; ?>"><div class="vote"></div></a>
+			<a href="<?= $vote; ?>"><img class="sel-anim" src="<?= $img_vote; ?>"></a>
 		</div>
 		<div class="col-md-3">
-			<a href="<?= $guide; ?>"><div class="guide"></div></a>
+			<a href="<?= $guide; ?>"><img class="sel-anim" src="<?= $img_guide; ?>"></a>
 		</div>
 	</div>
 </div>
