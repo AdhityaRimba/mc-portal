@@ -13,11 +13,13 @@ require "function.php";
 <div class="container">
 	<div class="row d-flex justify-content-center">
 		<div class="col-md-auto mt-3">
+			// Logo
 			<div class="logo"></div>
 		</div>
 	</div>
 	<div class="row d-flex justify-content-center">
 		<div class="col-md-auto">
+			// Counter
 			<div class="counter text-center shadow border text-white p-2 font-weight-bold text-uppercase mt-3"><?= $ip; ?> |  <?php 
 			if( $online == true ) {
 			 ?>Online <?= $player; ?>
@@ -31,6 +33,7 @@ require "function.php";
 	</div>
 	<br><br>
 	<div class="row d-flex justify-content-center">
+		// Item / Body
 		<div class="col-md-3">
 			<a href="<?= $forum; ?>"><img class="sel-anim" src="<?= $img_forum; ?>"></a>
 		</div>
